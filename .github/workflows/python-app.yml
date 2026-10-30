@@ -44,4 +44,4 @@ jobs:
         echo "=== Folder Contents ==="
         ls -R
     - name: Execute python script
-      run: python src/main.py
+      run: python src/addition.py
