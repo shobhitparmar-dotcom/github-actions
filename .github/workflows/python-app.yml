@@ -38,4 +38,4 @@ jobs:
       run: |
         pytest
     - name: Execute python script
-      run: python ../src/main.py
+      run: python src/main.py
