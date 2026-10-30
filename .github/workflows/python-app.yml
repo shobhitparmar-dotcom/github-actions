@@ -37,5 +37,11 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+    - name: Check where files are
+      run: |
+        echo "=== Current Directory ==="
+        pwd
+        echo "=== Folder Contents ==="
+        ls -R
     - name: Execute python script
       run: python src/main.py
